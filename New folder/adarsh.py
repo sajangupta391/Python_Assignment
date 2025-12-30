@@ -1,19 +1,3 @@
-# def addition (n1: int,n2:int)->int:
-#     """this functin take two arguments and return total"""
-#     total = n1 + n2
-#     return total
-
-# def mul(n1,n2):
-#     return n1*n2
-
-# if __name__=="__main__":
-#     print(addition(12,13))
-
-#     print("name of this file is",__name__)
-
-
-# number_list = [12,13,15,16,24,31,25,65,78,45,98,11]
-
 def find_large_number(number_list: list[float]) -> float:
 
     if not isinstance(number_list, list):
@@ -45,4 +29,5 @@ if __name__ == "__main__":
         print(e)
     except TypeError as e:
         print(e)
+
 
