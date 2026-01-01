@@ -20,9 +20,10 @@ try:
     num = int(input("Enter a number to check: "))
     
     if is_prime(num):
-        print(f" is a prime number.",{num})
+        print(f" is a prime number.",num)
     else:
-        print(f"is not a prime number." ,{num})
+        print(f"is not a prime number." ,num)
 except ValueError:
 
     print("Invalid input! Please enter an integer.")
+
