@@ -11,14 +11,14 @@ def find_primes_in_range():
     
     while True:
         try:
-            start_input = input("Enter start number: ")
-            end_input = input("Enter end number: ")
+            start_input = input("Enter start num: ")
+            end_input = input("Enter end num: ")
 
             start = int(start_input)
             end = int(end_input)
 
             if start < 0 or end < 0:
-                raise ValueError("Numbers must be positive.")
+                raise ValueError("Numbers must positive.")
             if start > end:
                 raise ValueError("Start number cannot be larger end number.")
 
@@ -33,10 +33,10 @@ def find_primes_in_range():
 
         except ValueError as e:
             print(f"\n[!] Invalid Input. {e}")
-            print("Please try.\n")
 
         except Exception as e:
             print(f"\n[!] Unexpect Error: {e}")
             break
+
 
 find_primes_in_range()
