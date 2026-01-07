@@ -17,4 +17,5 @@ def calculate_factorial(n):
     for i in range(1, n + 1):
         result *= i
     return result
-print(f"Factorial :", {calculate_factorial(4.5)})
+
+print(f"Factorial :", {calculate_factorial(5)})
